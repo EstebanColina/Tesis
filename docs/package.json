@@ -1,0 +1,19 @@
+{
+  "name": "Tesis",
+  "version": "0.0.1",
+  "description": "Diseño accesible para todos!",
+  "main": "index.js",
+  "authors": {
+    "name": "Meryliz Medina. Esteban Colina.",
+    "email": ""
+  },
+  "repository": "/Tesis",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
