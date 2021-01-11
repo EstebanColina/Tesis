@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'CLEVUX',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,8 +34,8 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Guía',
+        link: '/guía/',
       },
       {
         text: 'Config',
@@ -47,13 +47,17 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/guía/': [
         {
-          title: 'Guide',
+          title: 'Guía',
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'introducción',
+            'tipos',
+            'generales',
+            'especificos',
+            'recursos',
           ]
         }
       ],

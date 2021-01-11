@@ -2,8 +2,8 @@
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Diseño accesible para todos!
-actionText: Quick Start →
-actionLink: /guide/
+actionText: Iniciar →
+actionLink: /guía/
 features:
 - title: Feature 1 Title
   details: Feature 1 Description
@@ -11,5 +11,5 @@ features:
   details: Feature 2 Description
 - title: Feature 3 Title
   details: Feature 3 Description
-footer: Made by Meryliz Medina. Esteban Colina. with ❤️
+footer: Hecho por Meryliz Medina y Esteban Colina con ❤️
 ---
