@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: /clevux_logo.png
 tagline: Diseño accesible para todos!
 actionText: Iniciar →
 actionLink: /guía/
