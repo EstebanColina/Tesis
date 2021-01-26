@@ -27,6 +27,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    sidebarDepth: 2,
     repo: '',
     editLinks: false,
     docsDir: '',
@@ -71,5 +72,6 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    '@vuepress/medium-zoom',
   ]
 }
