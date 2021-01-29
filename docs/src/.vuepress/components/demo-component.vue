@@ -2,6 +2,8 @@
   <p class="demo">
     {{ msg }}
   </p>
+
+
 </template>
 
 <script>
@@ -13,3 +15,11 @@
     }
   }
 </script>
+
+<style>
+
+.demo {
+  font-size: 20px;
+}
+
+</style>

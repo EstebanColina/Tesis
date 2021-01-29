@@ -2,13 +2,31 @@
 
 >Labia de como hay un muchas discapacidades pero nos vamos a concentrar en el daltonismo y la dislexia
 
-# Daltonismo
+## Daltonismo
 
-El daltonismo es un trastorno de la visión que provoca dificultad para diferenciar colores, afecta al 0,5% de las mujeres (1 de cada 200) y al 8% de los hombres (1 de cada 12) a nivel mundial. Generalmente se trata de una condición genética incurable que afecta las células sensibles al color ubicadas en la retina ocular, pero también puede ser causada como efecto del envejecimiento, enfermedades, trauma y daño ocular e incluso ciertas medicaciones.
+El Daltonismo es una condición genética que afecta la forma en la que los ojos perciben los diferentes colores debido a una mutación en las células sensibles a la luz ubicadas en la retina. A nivel mundial afecta a 1 de cada 12 hombres y a 1 de cada 200 mujeres aproximadamente.
 
-La condición se presenta de las siguientes formas:
+::: details Nota
 
-**Deuteranopia y Deuteranomalia** 
+Aunque la causa principal de la condición es genética, también puede ser provocada por: 
 
-# Dislexia
+* Daño físico o químico al ojo
+* Daño en el nervio óptico
+* Daño a cerebral
+* Edad
+* Otros tipos de trauma
+
+El motivo por el cual no se añaden a la descripción general es debido a que los efectos de este tipo de daño es completamente impredecible y muy poco común a diferencia de las variantes genéticas.
+
+:::
+
+
+
+| Tipo              | Combinaciones de color problemáticas       |
+| -------------     |:-------------:                             |
+| Deutera (Verde)   | Verde/Rojo, Verde/Azul, Azul/Gris, Verde/Marrón, Azul/Morado, Rojo/Naranja, Amarillo/Naranja |
+| Prota (Rojo)      | Morado/Azul Oscuro, Naranja/Verde, Marrón/Verde Oscuro, Rojo/Marrón, Verde/Amarillo, Gris/Morado              |
+| Trita (Azul)      | Azul/Amarillo, Lila/Amarillo Verdoso, Rojo/Morado Rojizo, Azul Oscuro/Negro, Amarillo/Blanco              |
+
+## Dislexia
 

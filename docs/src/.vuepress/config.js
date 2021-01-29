@@ -8,7 +8,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  //description: description,
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -16,7 +16,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#df4c73' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
@@ -27,6 +27,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    logo: '/clevux_logo.png',
     sidebarDepth: 2,
     repo: '',
     editLinks: false,
@@ -39,13 +40,9 @@ module.exports = {
         link: '/guía/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Recursos y Herramientas',
+        link: '/herramientas/',
       },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
     ],
     sidebar: {
       '/guía/': [
@@ -58,7 +55,16 @@ module.exports = {
             'tipos',
             'generales',
             'especificos',
-            'recursos',
+          ]
+        }
+      ],
+      '/herramientas/': [
+        {
+          title: 'Recursos y Herramientas',
+          collapsable: false,
+          children: [
+            '',
+            'zanahoria',
           ]
         }
       ],

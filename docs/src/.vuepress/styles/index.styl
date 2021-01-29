@@ -4,8 +4,52 @@
  * ref：https://v1.vuepress.vuejs.org/config/#index-styl
  */
 
+@font-face {
+  font-family: 'Inter';
+  src:  url('/Inter-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Londrina Solid';
+  src:  url('/LondrinaSolid-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Acme';
+  src:  url('/Acme-Regular.ttf') format('truetype');
+}  
+
 .home .hero img
   max-width 450px!important
+   
+.links
+  background-color: transparent !important
 
-//.navbar 
-//  background-color #000
+.theme-default-content {
+  font-size 18px
+  transition: transform 0.25s ease-in-out 0s, opacity 0.25s ease-in-out 0s;
+  
+
+
+  strong {
+    font-weight: 1200;
+    //background-color: #f7d4dd
+    background-color: #ffeac5;
+  }
+
+  h1,h2,h3{
+    font-family: "Acme", sans-serif;
+  }
+  }
+
+.theme-container {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+}
+
+.navbar
+  // background: rgb(255,255,255);
+  // background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(241,248,252,1) 50%, rgba(226,240,249,1) 100%); 
+  //box-shadow: 0 2px 2px 0 rgba(40, 111, 180, 0.5);
+  border-radius: 25px; 
+
