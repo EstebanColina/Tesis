@@ -30,3 +30,12 @@ El motivo por el cual no se añaden a la descripción general es debido a que lo
 
 ## Dislexia
 
+
+
+URls que no quiero tener abiertas: 
+
+https://wearecolorblind.com/articles/a-quick-introduction-to-color-blindness/
+https://www.webmd.com/eye-health/color-blindness#1
+https://www.telerik.com/blogs/web-accessibility-guidebook-for-developers
+https://kidshealth.org/en/teens/dyslexia.html
+https://www.mayoclinic.org/diseases-conditions/dyslexia/symptoms-causes/syc-20353552
