@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: /home_pic_1.png
+heroImage: /clevux_logo.png
 tagline: " "
 actionText: Iniciar →
 actionLink: /guía/
-footer: Hecho por Meryliz Medina y Esteban Colina con ❤️
+footer: Hecho por Meryliz Medina y Esteban Colina para VTELCA C.A
 ---

@@ -1,6 +1,6 @@
 # Filtro de Daltonismo
 
-[FILTRO DE DALTONISMO](/filtro/)
+Este filtro busca simular el espectro visual de una persona con daltonismo si es necesario utilizar imagenes de mayor resolución pueden usar la versión de pagina individual para mayor comodidan haciendo click [FILTRO DE DALTONISMO](/filtro/)
 
 
 <Filtro-Daltonismo/>
