@@ -16,7 +16,7 @@ Si el contenido que es presentado debe ser específicamente presentado de manera
 * Elementos decorativos
 Si los elementos presentados tienen como único propósito ser decorativos y no afectan directamente el contenido y su interacción con los usuarios, pueden ser ignorados en términos de accesibilidad. 
 
-### Ejemplos de situaciones relacionadas con las alternativas de contenido no-textual
+### Ejemplos relacionados con las alternativas de contenido no-textual
 
 ### Omitir el atributo alt o alguna alternativa texto en un elemento de imagen
 
@@ -49,6 +49,49 @@ Este tipo de situaciones es beneficiosa ya que provee una alternativa no textual
 
 
 ## Adaptabilidad del contenido
+
+Esta premisa pretende asegurar que toda la información se encuentra disponible de tal forma que pueda ser percibida por todo tipo de usuarios. Generalmente la forma mas fácil de lograr esto es asegurarse que la información puede ser determinada programaticamente.
+
+La adaptabilidad se puede dividir en dos parte principales:
+
+* Estructura: Son las partes de la pagina web y el como se encuentran organizadas en relación con las demás. 
+
+* Presentación: Es la forma general en la que se presenta el contenido a los usuarios.
+
+La naturaleza de los lenguajes y tecnologías web permite mantener estas dos categorías relacionadas, pero no necesariamente dependientes unas de otras y eso es importante para comprender como trabajar al rededor de esto.
+
+### La información y su interrelación
+
+En términos simples es que la información, la estructura y la relación de los elementos se puede determinar programaticamente o es disponible en texto plano.
+
+### Secuencia lógica
+
+Generalmente la forma en la que se presenta un contenido afecta la forma en la que este puede ser interpretado o directamente su significado, tecnologías de accesibilidad deben ser capaces de lograr determinar la secuencia lógica programaticamente.
+
+### Elemento multicaracteristicos
+
+Las instrucciones provistas para entender y operar el contenido no dependen unicamente de una característica significativa como lo puede ser, la forma, el tamaño, su posición, orientación. En lugar de esto se proveen varias combinaciones para asegurarse que los elementos importantes se puedan reconocer fácilmente.
+
+### Ejemplos relacionados con la adaptabilidad del contenido
+
+### Usar marcado semántico para enfatizar o indicar texto especial
+
+``` html
+<html>
+<p>El siguiente es un extracto de <cite>La historia de mi vida</cite> por Helen Keller</p>
+ <blockquote>
+   <p>Incluso en los días antes de que mi profesora viniese,Me gustaba venir a este sitio para pasar el rato cerca de los grupos de gente, una sensación que por algún motivo crea cierta felicidad en mi.</p>
+ </blockquote>
+</html>
+```
+**Renderizado de la siguiente manera**
+
+<html>
+<p>El siguiente es un extracto de <cite>La historia de mi vida</cite> por Helen Keller</p>
+ <blockquote>
+   <p>Incluso en los días antes de que mi profesora viniese,Me gustaba venir a este sitio para pasar el rato cerca de los grupos de gente, una sensación que por algún motivo crea cierta felicidad en mi.</p>
+ </blockquote>
+</html>
 
 
 
