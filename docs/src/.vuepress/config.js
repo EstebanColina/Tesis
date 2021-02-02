@@ -64,7 +64,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'zanahoria',
+            'calculadora',
           ]
         }
       ],
