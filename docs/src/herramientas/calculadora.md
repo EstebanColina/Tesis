@@ -4,7 +4,9 @@ Esta es una calculadora de contraste diseñada para obtener el [nivel de contras
 
 <Calculadora-Contraste/>
 
-
+::: details Nota
+"The quick brown fox jumps over the lazy dog" es una frase típica utilizada para muestras cortas de texto debido a que contiene todas las letras del alfabeto en ingles
+:::
 
 ## Formulas utilizadas para los cálculos
 
