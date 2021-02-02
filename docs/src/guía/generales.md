@@ -11,3 +11,23 @@ El propósito de los test CAPTCHA es confirmar que el contenido es accedido por 
 Si el contenido que es presentado debe ser específicamente presentado de manera no textual, al menos debe ser etiquetado con texto que provea una identificación/descripción del contenido relevante.
 ### Elementos decorativos
 Si los elementos presentados tienen como único propósito ser decorativos y no afectan directamente el contenido y su interacción con los usuarios, pueden ser ignorados en términos de accesibilidad. 
+
+
+## Adaptabilidad del contenido
+asd
+## El contenido debe distinguirse
+asd
+## Se debe proveer de suficiente tiempo para leer y utilizar el contenido
+asd
+## Evitar el uso de elementos u efectos visuales que puedan distraer o evitar la visualización apropiada del contenido
+asd
+## Ofrecer formas para ayudar a los usuarios a navegar, encontrar o determinar que contenido esta siendo presentado. 
+asd
+
+## El contenido debe ser legible e interpretable
+asd
+## La interfaz de usuario debe comportarse de manera consistente
+asd
+## Ayudar a los usuarios a identificar y corregir sus inputs
+
+asd

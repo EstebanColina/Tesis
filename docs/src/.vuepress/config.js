@@ -72,6 +72,9 @@ module.exports = {
       smoothScroll: true
   },
 
+  markdown: {
+    lineNumbers: true
+  },
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
@@ -80,4 +83,5 @@ module.exports = {
     '@vuepress/plugin-medium-zoom',
     '@vuepress/medium-zoom',
   ]
+  
 }

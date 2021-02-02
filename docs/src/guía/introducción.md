@@ -94,4 +94,12 @@ Esta es una situación que trabaja en beneficio de los intereses tanto de los de
 
 ### Mejora las practicas de programación
 
->Falta una labia aqui 
+Las técnicas de accesibilidad traen consigo ventajas tales como lo pueden ser: 
+
+* Integración a las tecnologías actuales: Con cada vez mas frecuencia, las accesibilidad es una de las consideraciones principales que se tienen al desarrollar nuevas tecnologías, entender como funciona la accesibilidad y lo que se espera de un código diseñado para funcionar con las tecnologías de vanguardia es uno de los primeros pasos hacia el desarrollo de software moderno.
+
+* Compatibilidad con mayor numero de plataformas: Las consideraciones de accesibilidad contemplan el tipo de dispositivo desde el que se accede al software, un ejemplo claro seria el termino **"responsive" explicado con anterioridad** que se asegura de proveer un display adecuado de una aplicación web  sin importar el tamaño de pantalla del dispositivo del que se accede.
+
+* Código mas consistente y descriptivo: Un efecto secundario de aplicar técnicas de accesibilidad es que como desarrollador ganas mas conciencia con respecto a las funciones y el propósito de cada elemento que se incluye en el código. Esto tiene resultado que cada parte sea mas descriptiva y "legible" lo que ayuda a preservar un código fuente por periodos prologados de tiempo. 
+
+>"Un buen código nunca envejece" - Linus Torvarls
