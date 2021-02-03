@@ -1,8 +1,13 @@
 # Recomendaciones Específicas
-asd
+
 ## Uso apropiado del HTML
-asd
+
+Texto temporal
+
 ## Reducir el uso de Javascript 
-asd
+
+Texto Temporal
+
 ## Mantener por separado los archivos de HTML/CSS/Javascript
-asd
+
+Texto Temporal

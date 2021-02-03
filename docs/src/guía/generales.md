@@ -93,21 +93,90 @@ Las instrucciones provistas para entender y operar el contenido no dependen unic
  </blockquote>
 </html>
 
+**Otro ejemplo**
+``` html
+ <p>Beth recibió 1<sup>st</sup> lugar en su competición de 9<sup>th</sup> grado.</p>
+<p>La notación química para el agua es H<sub>2</sub>O.</p>
+```
+
+Se utilizan la etiqueta `<sup> </sup>` para este tipo de anotaciones de sub-texto:
+<html>
+<p>Beth recibió 1<sup>st</sup> lugar en su competición de 9<sup>th</sup> grado.</p>
+<p>La notación química para el agua es H<sub>2</sub>O.</p>
+</html>
+
+**Esta es la forma correcta de agregar este tipo de caracteres especiales**
 
 
 ## El contenido debe distinguirse
-asd
+
+Se debe hacer lo posible para que los usuarios puedan distinguir el contenido asi como separar los elementos interactivos de la interfaz con aquellos que solo forman parte del fondo.
+
+### Uso del color
+
+El color jamas debe usarse como único método para comunicar información, indicar acciones o proporcionar respuestas. 
+
+Esto es complicado porque cuando se piensa en diseño web, el color juega un papel estético sumamente importante, no obstante es importante que podamos comprender que esta premisa no es limitante, simplemente debes proporcionar opciones a los usuarios, y comunicar utilizando formas adicionales.
+
+**Un ejemplo sencillo**: Un error común con campos obligatorios es comunicarle a los usuarios que el campo es requerido colocando el color rojo. Esto puede ser un problema para las personas que sufren daltonismo. Pero es igualmente fácil de solucionar con tan solo agregar el texto "(Obligatorio)" a la etiqueta del campo.
+
+``` html
+<label for="apellido" class="required">Apellido (obligatorio): </label>
+<input id="apellido" type="text" size="25" value=""/>
+<style type="text/css">
+  .required {
+    color:red;
+  }
+</style>
+```
+<label for="apellido" class="required">Apellido (obligatorio): </label>
+<input id="apellido" type="text" size="25" value=""/>
+<style type="text/css">
+  .required {
+    color:red;
+  }
+</style>
+
+### Contraste
+
+Las representaciones visuales de texto y texto en imagenes debe tener un [ratio de contraste](/herramientas/calculadora) de al menos `4.5` para textos normales y de `3.1` para textos de `18px` o mas. La recomendación optima según la [w3.org](https://www.w3.org) señala un ratio de `4.5` para los textos de `18px` o mas y `7.1` de ratio para los textos de cualquier otro tamaño.
+
+Los ratio de contraste pueden ser calculados usando la [Calculadora de contraste](/herramientas/calculadora)
+
+Existen algunas excepciones a esta norma: 
+
+* Elementos decorativos: Texto o imágenes de texto que son parte inactiva de la interfaz de usuario, es decir que son unicamente decoración y que no obstruyen de ninguna manera el acceso al contenido relevante, no tienen requerimientos de contraste.
+
+* Logotipos: Texto que es parte de un logo o marca tampoco tienen requerimientos mínimos de contraste al momento de ser mostradas en el contenido.
+
+::: tip
+Aun asi es recomendado que si un logotipo contiene combinaciones de contraste problemáticas se le añadan etiquetas y descripciones que permitan a los usuarios identificarlos con facilidad
+
+:::
+
+
+
+
 ## Se debe proveer de suficiente tiempo para leer y utilizar el contenido
-asd
+
+Texto temporal
+
 ## Evitar el uso de elementos u efectos visuales que puedan distraer o evitar la visualización apropiada del contenido
-asd
+
+Texto temporal
+
 ## Ofrecer formas para ayudar a los usuarios a navegar, encontrar o determinar que contenido esta siendo presentado. 
-asd
+
+Texto temporal
 
 ## El contenido debe ser legible e interpretable
-asd
+
+Texto temporal
+
 ## La interfaz de usuario debe comportarse de manera consistente
-asd
+
+Texto temporal
+
 ## Ayudar a los usuarios a identificar y corregir sus inputs
 
-asd
+Texto temporal
